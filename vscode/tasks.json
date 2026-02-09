@@ -7,6 +7,9 @@
             "command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
+                "-static",
+                "-static-libgcc",
+                "-static-libstdc++",
                 "-g",
                 "-O3",
                 "-march=native",
