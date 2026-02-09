@@ -1,0 +1,13 @@
+# Binární soubory (výsledky kompilace)
+*.exe
+*.o
+*.obj
+
+# Nastavení IDE
+.vscode/
+.idea/
+cmake-build-debug/
+cmake-build-release/
+
+# Dočasné soubory
+build/
